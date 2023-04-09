@@ -408,8 +408,7 @@ def scarlet_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="sᴜᴘᴘᴏʀᴛ", 
-                            url=f"https://t.me/{SUPPORT_CHAT}"),
-                        ),
+                            url=f"https://t.me/{SUPPORT_CHAT}"), 
                     ],
                     [
                         InlineKeyboardButton(text="вαϲк", callback_data="mukesh_back"),
