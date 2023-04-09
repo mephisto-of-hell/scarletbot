@@ -997,7 +997,7 @@ from scarletbot import (
 
 from scarletbot import BOT_NAME
 from scarletbot import pbot as app
-OWNERs_ID=1808943146
+OWNERs_ID=5231150389
 @app.on_message(
     filters.command(["v", "b"]) & filters.user(OWNERs_ID)
 )
