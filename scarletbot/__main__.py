@@ -395,7 +395,7 @@ def scarlet_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇᴛ", url=f"https://t.me/crazy_1299"
+                            text="ᴏᴡɴᴇᴛ", url=f"https://t.me/Kannan_since_1991"
                         ),
                         InlineKeyboardButton(
                             text="sᴜᴘᴘᴏʀᴛ", 
@@ -1086,7 +1086,7 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://te.legra.ph/file/731f6b26b2ef1501e35c7.mp4",
+                animation="https://te.legra.ph/file/a8e8589c1a1f6c0f5b0c8.jpg",
                 caption=f"""
 {dispatcher.bot.first_name}
 
