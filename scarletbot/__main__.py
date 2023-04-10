@@ -80,12 +80,14 @@ PM_START_TEXT = """
 𝐇𝐞𝐲 {} , [🖤]({})
 
 ╔══❰🌺𝐖𝐄𝐋𝐂𝐎𝐌𝐄🌺❱═══❍⊱❁۪۪
-║
 ║┣⪼ {} 
-║
-╚✦  ɪ ᴀᴍ ʜᴇʟᴘ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏɪᴘs ᴡɪᴛʜ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs ғᴇᴇʟ ғʀᴇᴇ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs!
-───────────────
-️ʜɪᴛ ᴏɴ /help ᴀɴᴅ ᴇxᴘʟᴏʀᴇʀ ʏᴏᴜʀsᴇʟғ.
+╚✦  𝙃𝙚𝙮 𝘽𝙖𝙗𝙮,
+
+𝙄𝙖𝙢  𝙨𝙘𝙖𝙧𝙡𝙚𝙩 , 𝘼 𝙋𝙤𝙬𝙚𝙧𝙛𝙪𝙡𝙡 𝙖𝙡𝙡 𝙞𝙣 𝙤𝙣𝙚 𝙜𝙧𝙤𝙪𝙥 𝙢𝙖𝙣𝙖𝙜𝙚𝙢𝙚𝙣𝙩 𝙗𝙤𝙩 𝙥𝙡𝙪𝙨 𝙢𝙪𝙨𝙞𝙘 𝙗𝙤𝙩 𝙢𝙖𝙙𝙚 𝙛𝙤𝙧 𝙢𝙖𝙣𝙖𝙜𝙞𝙣𝙜 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙚𝙛𝙛𝙚𝙘𝙩𝙞𝙫𝙚𝙡𝙮 𝙬𝙞𝙩𝙝 𝙨𝙤𝙢𝙚 𝙖𝙙𝙫𝙖𝙣𝙘𝙚 𝙨𝙚𝙘𝙪𝙧𝙞𝙩𝙮 𝙩𝙤𝙤𝙡𝙨 𝙖𝙣𝙙 𝘼𝙞 𝙛𝙪𝙣𝙘𝙩𝙞𝙤𝙣𝙨.
+
+𝙄 𝙘𝙖𝙣 𝙝𝙚𝙡𝙥 𝙞𝙣 𝙢𝙖𝙣𝙖𝙜𝙞𝙣𝙜 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨 𝙬𝙞𝙩𝙝 𝙪𝙨𝙚𝙛𝙪𝙡 𝙛𝙚𝙖𝙩𝙪𝙧𝙚𝙨, 𝙛𝙚𝙚𝙡 𝙛𝙧𝙚𝙚 𝙩𝙤 𝙖𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥𝙨!
+
+𝙷𝚒𝚝 𝚘𝚗 /𝚑𝚎𝚕𝚙 𝚊𝚗𝚍 𝚎𝚡𝚙𝚕𝚘𝚛𝚎 𝚖𝚘𝚛𝚎 . . .
 """
 
 buttons = [
@@ -96,14 +98,14 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_"),
+        InlineKeyboardButton(text="『ʜᴇʟᴘ』", callback_data="help_back"),
+        InlineKeyboardButton(text="『ᴍᴜsɪᴄ』", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="『sᴜᴘᴘᴏʀᴛ』", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="mukesh_"),
+        InlineKeyboardButton(text="『sᴏᴜʀᴄᴇ』", callback_data="mukesh_"),
     ],
 ]
 
@@ -200,7 +202,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="вαϲк", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="『вαϲк』", callback_data="help_back")]]
                     ),
                 )
 
@@ -395,14 +397,14 @@ def scarlet_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇᴛ", url=f"https://t.me/Kannan_since_1991"
+                            text="『ᴏᴡɴᴇᴛ』", url=f"https://t.me/Kannan_since_1991"
                         ),
                         InlineKeyboardButton(
-                            text="sᴜᴘᴘᴏʀᴛ", 
+                            text="『sᴜᴘᴘᴏʀᴛ』", 
                             url=f"https://t.me/{SUPPORT_CHAT}"), 
                     ],
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="mukesh_back"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="mukesh_back"),
                     ],
                 ]
             ),
@@ -433,64 +435,64 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
                         
                 InlineKeyboardButton(
-                    text="ᴀᴅᴍɪɴ",
+                    text="『ᴀᴅᴍɪɴ』",
                     callback_data="Music_1",
                 ),
                 InlineKeyboardButton(
-                    text="ᴀᴜᴛʜ",
+                    text="『ᴀᴜᴛʜ』",
                     callback_data="Music_2",
                 ),
             
                 InlineKeyboardButton(
-                    text="ʙʟᴏᴄᴋ",
+                    text="『ʙʟᴏᴄᴋ』",
                     callback_data="Music_3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="ɢᴄᴀsᴛ",
+                    text="『ɢᴄᴀsᴛ』",
                     callback_data="Music_4",
                 ),
                 InlineKeyboardButton(
-                    text="ɢʙᴀɴ",
+                    text="『ɢʙᴀɴ』",
                     callback_data="Music_5",
                 ),
                 InlineKeyboardButton(
-                    text="ʟʏʀɪᴄs",
+                    text="『ʟʏʀɪᴄs』",
                     callback_data="Music_6",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="ᴘʟᴀʏʟɪsᴛ",
+                    text="『ᴘʟᴀʏʟɪsᴛ』",
                     callback_data="Music_7",
                 ),
                 InlineKeyboardButton(
-                    text="ᴠᴏɪᴄᴇ ᴄʜᴀᴛ",
+                    text="『ᴠᴏɪᴄᴇ ᴄʜᴀᴛ』",
                     callback_data="Music_8",
                 ),
             ],
             [
            
                 InlineKeyboardButton(
-                    text="ᴘʟᴀʏ",
+                    text="『ᴘʟᴀʏ』",
                     callback_data="Music_9",
                 ),
             
             
                 InlineKeyboardButton(
-                    text="sᴜᴅᴏ",
+                    text="『sᴜᴅᴏ』",
                     callback_data="Music_10",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="sᴛᴀʀᴛ",
+                    text="『sᴛᴀʀᴛ』",
                     callback_data="Music_11",
                 ),
             ],
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="mukesh_back"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="mukesh_back"),
                     ],
                 ]
            ),
@@ -521,7 +523,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -545,7 +547,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -578,7 +580,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -606,7 +608,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -628,7 +630,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『 вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -657,7 +659,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -679,7 +681,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -699,7 +701,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text=" 『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -725,7 +727,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text=" 『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -759,7 +761,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text=" 『вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -784,7 +786,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" вαϲк", callback_data="Music_"),
+                        InlineKeyboardButton(text="『 вαϲк』", callback_data="Music_"),
                     ]
                 ]
             ),
@@ -815,7 +817,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʜᴇʟᴘ ",
+                                text="『ʜᴇʟᴘ』 ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -831,7 +833,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴛᴀʀᴛ ɪɴ ᴘʀɪᴠᴀᴛᴇ",
+                            text="『sᴛᴀʀᴛ ɪɴ ᴘʀɪᴠᴀᴛᴇ』",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -860,7 +862,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text=" вαϲк", callback_data="help_back")]]
+                [[InlineKeyboardButton(text=" 『вαϲк』", callback_data="help_back")]]
             ),
         )
 
@@ -1009,7 +1011,7 @@ def get_settings(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs​",
+                                text="『sᴇᴛᴛɪɴɢs​』",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
