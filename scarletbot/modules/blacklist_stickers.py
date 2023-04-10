@@ -508,7 +508,7 @@ __help__ = """
 
 """
 
-__mod_name__ = "♨️sᴛɪᴄᴋᴇʀ♨️"
+__mod_name__ = "『Sᴛɪᴄᴋᴇʀ 』"
 
 BLACKLIST_STICKER_HANDLER = DisableAbleCommandHandler(
     "blsticker", blackliststicker, admin_ok=True
