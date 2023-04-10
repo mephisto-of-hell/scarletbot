@@ -7,12 +7,10 @@ from scarletbot import dispatcher
 from scarletbot.modules.helper_funcs.alternate import send_message
 from scarletbot.modules.helper_funcs.chat_status import user_admin
 
-__mod_name__ = "📍𝙿ʜᴏɴᴇ📍"
+__mod_name__ = "『𝙿ʜᴏɴᴇ 』"
 __help__ = """
 » /phone ꜰɪʟʟ ᴀɴʏ ᴍᴏʙɪʟᴇ ɴᴜᴍʙᴇʀ ᴛᴏ ᴄʜᴇᴄᴋ ɪɴꜰᴏ.
-
-
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆"""
+"""
 
 
 @run_async
