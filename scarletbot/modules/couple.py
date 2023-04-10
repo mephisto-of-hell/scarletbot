@@ -82,4 +82,4 @@ Choose couples in your chat
 
 """
 
-__mod_name__ = "♨️Cᴏᴜᴘʟᴇ♨️"
+__mod_name__ = "『Cᴏᴜᴘʟᴇ 』"
