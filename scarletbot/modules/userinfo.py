@@ -337,16 +337,16 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/the_vip_boy"
+                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/crazy_1299"
                             ),
                             InlineKeyboardButton(
-                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/vip_creators"
+                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/scarletsupportchat"
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕",
-                                url=f"https://t.me/tg_manager_robot?startgroup=true",
+                                url=f"https://t.me/Scarlet_robot?startgroup=true",
                             ),
                         ],
                     ]
@@ -363,16 +363,16 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/the_vip_boy"
+                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/crazy_1299"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/vip_creators"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/scarletsupportchat"
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕",
-                                url=f"https://t.me/tg_manager_robot?startgroup=true",
+                                url=f"https://t.me/Scarlet_robot?startgroup=true",
                             ),
                         ],
                     ]
