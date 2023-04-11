@@ -91,7 +91,7 @@ dispatcher.add_handler(LEAVE_HANDLER)
 dispatcher.add_handler(GITPULL_HANDLER)
 dispatcher.add_handler(RESTART_HANDLER)
 
-__mod_name__ = "♨️ᴅᴇᴠ♨️"
+__mod_name__ = "『ᴅᴇᴠ 』"
 __help__ = """ 
 /ʟᴏᴄᴋᴅᴏᴡɴ ᴏɴ/ᴏғғ
 /ʟᴇᴀᴠᴇ  ᴛᴏ ʟᴇᴀᴠᴇ ᴄʜᴀᴛ
