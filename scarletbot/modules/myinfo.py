@@ -19,7 +19,7 @@ file5 = "https://telegra.ph/file/701028ce085ecfa961a36.jpg"
 """ =======================𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧====================== """
 
 
-@register(pattern="/myinfo")
+@register(pattern="/mynfo")
 async def proboyx(event):
     await event.get_chat()
     datetime.utcnow()
@@ -79,6 +79,3 @@ async def callback_query_handler(event):
 
 __command_list__ = ["myinfo"]
 __mod_name__ = "📍ɪɴғᴏ📍"
-__help__ = """
- /myinfo  ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ɪɴғᴏ 
-"""
