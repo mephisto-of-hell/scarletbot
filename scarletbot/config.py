@@ -65,6 +65,7 @@ class Config(object):
         ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     BL_CHATS = []  # List of groups that you want blacklisted.
+    ALLOW_CHATS = []
     #SPAMMERS = None
 
 
