@@ -13,6 +13,7 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN mkdir /scarletbot/
 COPY . /scarletbot
 WORKDIR /scarletbot
+RUN pip install telegram
 
 # Install requirements
 
