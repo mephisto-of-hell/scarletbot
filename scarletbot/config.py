@@ -29,6 +29,8 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://Cutie:cutie1@cluster0.dctlhwo.mongodb.net/?retryWrites=true&w=majority"
     DATABASE_URL = "mongodb+srv://Cutie:cutie1@cluster0.dctlhwo.mongodb.net/?retryWrites=true&w=majority"
     START_IMG = "https://te.legra.ph/file/6c2d411c893e5d483c4bd.jpg"
+    TEMP_DOWNLOAD_DIRECTORY = "/downloads/"
+    
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
