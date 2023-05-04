@@ -18,7 +18,7 @@ class Config(object):
     API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "5475511278" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = projectstark
+    OWNER_USERNAME = "projectstark"
     SUPPORT_CHAT = "scarletsupportchat"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001871477087
