@@ -47,8 +47,8 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     #TIGERS = get_user_list("elevated_users.json", "5231150389")
     #WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = none # EG, paypal
-    CERT_PATH = None
+    #DONATION_LINK = none # EG, paypal
+    #CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
@@ -65,7 +65,7 @@ class Config(object):
         ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     BL_CHATS = []  # List of groups that you want blacklisted.
-    SPAMMERS = None
+    #SPAMMERS = None
 
 
 class Production(Config):
