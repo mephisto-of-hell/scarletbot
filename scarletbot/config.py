@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = "14050586" # integer value, dont use ""
     API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = os.environ.get("TOKEN")  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "5475511278" # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "projectstark"
     SUPPORT_CHAT = "scarletsupportchat"  # Your own group for support, do not add the @
@@ -26,7 +26,11 @@ class Config(object):
     EVENT_LOGS = (
         -1001871477087
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= " mongodb+srv://Cutie:cutie1@cluster0.dctlhwo.mongodb.net/?retryWrites=true&w=majority"
+    MONGO_DB_URI = "mongodb+srv://Cutie:cutie1@cluster0.dctlhwo.mongodb.net/?retryWrites=true&w=majority"
+    DATABASE_URL = "postgresql://clh9o9i3h001fajqkakm5d9v8:ijEQ9gfEcWAkPXdGtPgcBBCG@104.248.139.76:9001/clh9o9i3j001hajqkghwv85b5"
+    START_IMG = "https://te.legra.ph/file/6c2d411c893e5d483c4bd.jpg"
+    TEMP_DOWNLOAD_DIRECTORY = "./downloads/"
+    
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
@@ -39,16 +43,16 @@ class Config(object):
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
-    DRAGONS = get_user_list("elevated_users.json", "1808943146")
+    DRAGONS = []
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "5231150389")
+    DEV_USERS = [1412909688]
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    DEMONS = get_user_list("elevated_users.json", "1808943146")
+    DEMONS = []
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
-    TIGERS = get_user_list("elevated_users.json", "5231150389")
-    WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = none # EG, paypal
-    CERT_PATH = None
+    TIGERS = []
+    WOLVES = []
+    #DONATION_LINK = none # EG, paypal
+    #CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
@@ -65,7 +69,8 @@ class Config(object):
         ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
     BL_CHATS = []  # List of groups that you want blacklisted.
-    SPAMMERS = None
+    ALLOW_CHATS = []
+    #SPAMMERS = None
 
 
 class Production(Config):
